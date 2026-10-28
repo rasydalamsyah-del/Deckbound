@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="170dp"
+    android:viewportWidth="240"
+    android:viewportHeight="170">
+
+    <!-- left card -->
+    <group android:pivotX="120" android:pivotY="160" android:rotation="-18">
+        <path android:fillColor="@color/card_back" android:strokeColor="@color/gold_dark" android:strokeWidth="3"
+            android:pathData="M88,20 L152,20 Q158,20 158,26 L158,134 Q158,140 152,140 L88,140 Q82,140 82,134 L82,26 Q82,20 88,20 Z" />
+        <path android:fillColor="@color/gold_dark"
+            android:pathData="M120,62 L132,80 L120,98 L108,80 Z" />
+    </group>
+
+    <!-- right card -->
+    <group android:pivotX="120" android:pivotY="160" android:rotation="18">
+        <path android:fillColor="@color/card_back" android:strokeColor="@color/gold_dark" android:strokeWidth="3"
+            android:pathData="M88,20 L152,20 Q158,20 158,26 L158,134 Q158,140 152,140 L88,140 Q82,140 82,134 L82,26 Q82,20 88,20 Z" />
+        <path android:fillColor="@color/gold_dark"
+            android:pathData="M120,62 L132,80 L120,98 L108,80 Z" />
+    </group>
+
+    <!-- center card (sword) -->
+    <path android:fillColor="#4A3680" android:strokeColor="@color/gold" android:strokeWidth="3"
+        android:pathData="M88,14 L152,14 Q158,14 158,20 L158,128 Q158,134 152,134 L88,134 Q82,134 82,128 L82,20 Q82,14 88,14 Z" />
+    <path android:fillColor="@color/gold"
+        android:pathData="M117,32 L123,32 L123,90 L117,90 Z" />
+    <path android:fillColor="@color/gold"
+        android:pathData="M120,24 L125,34 L115,34 Z" />
+    <path android:fillColor="@color/gold"
+        android:pathData="M104,90 L136,90 L136,96 L104,96 Z" />
+    <path android:fillColor="@color/gold_dark"
+        android:pathData="M117,96 L123,96 L123,112 L117,112 Z" />
+    <path android:fillColor="@color/gold"
+        android:pathData="M120,110 L126,116 L120,122 L114,116 Z" />
+</vector>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/menuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp">
+
+        <ImageView
+            android:id="@+id/cardFan"
+            android:layout_width="220dp"
+            android:layout_height="156dp"
+            android:contentDescription="@null"
+            android:src="@drawable/card_fan" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="serif"
+            android:letterSpacing="0.15"
+            android:shadowColor="#80000000"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:text="@string/title"
+            android:textColor="@color/gold"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/subtitle"
+            android:textColor="@color/text_muted"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            style="@style/MenuButton"
+            android:layout_height="64dp"
+            android:background="@drawable/btn_start"
+            android:letterSpacing="0.2"
+            android:text="@string/btn_start"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCollection"
+            style="@style/MenuButton"
+            android:text="@string/btn_collection" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            style="@style/MenuButton"
+            android:text="@string/btn_settings" />
+
+        <Button
+            android:id="@+id/btnExit"
+            style="@style/MenuButton"
+            android:text="@string/btn_exit" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/versionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/text_muted"
+        android:textSize="12sp" />
+
+</FrameLayout>

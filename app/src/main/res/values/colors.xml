@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_top">#1B1430</color>
+    <color name="bg_bottom">#0B0814</color>
+    <color name="gold">#E8B84A</color>
+    <color name="gold_dark">#A87A1E</color>
+    <color name="text_light">#F3EBDD</color>
+    <color name="text_muted">#9C90B4</color>
+    <color name="button_fill">#2A2045</color>
+    <color name="button_fill_pressed">#3A2D5E</color>
+    <color name="start_fill">#B5362F</color>
+    <color name="start_fill_pressed">#D44A3F</color>
+    <color name="card_back">#3B2A66</color>
+</resources>
